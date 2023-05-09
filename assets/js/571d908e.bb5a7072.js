@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbtbc_av=self.webpackChunkbtbc_av||[]).push([[7835],{8760:t=>{t.exports=JSON.parse('{"permalink":"/btbc-av/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

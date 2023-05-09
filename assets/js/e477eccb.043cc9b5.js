@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbtbc_av=self.webpackChunkbtbc_av||[]).push([[3312],{4037:e=>{e.exports=JSON.parse('{"permalink":"/btbc-av/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

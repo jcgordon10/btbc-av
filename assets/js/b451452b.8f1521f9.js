@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbtbc_av=self.webpackChunkbtbc_av||[]).push([[8401],{2587:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/btbc-av/blog/tags/hola","allTagsPath":"/btbc-av/blog/tags","count":1}')}}]);

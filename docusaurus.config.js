@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'BTBC AV TEAM',
+  tagline: 'Documentation Center',
+  favicon: 'img/btbclogo.jpg',
 
   // Set the production url of your site here
-  url: 'https://jcgordon10.github.io/',
+  url: 'https://jcgordon10.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/btbc-av/',
@@ -62,26 +62,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/BTBC_AV_Logo.svg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/BTBC_AV_Logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -91,43 +86,40 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Get Started',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
+            title: 'Updates',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
+              }
+            ],
+          },
+          {
+            title: 'External',
+            items: [
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@BurgeTerraceBaptistChurch',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Church Center',
+                href: 'https://burgeterrace.churchcenter.com/home',
+              },
+              {
+                label: 'Website (Retiring)',
+                href: 'https://burgeterrace.org/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Burge Terrace Baptist Church
+        · 9345 Brookville Road · Indianapolis, IN 46239 · 317-862-6109 · Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
